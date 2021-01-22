@@ -9,4 +9,10 @@ dom.textarea.addEventListener("keyup", function handleTextarea() {
   }
 
   dom.charCountSpan.innerText = charCount;
+
+  if (charCount > 140) {
+    dom.span.classList.add("is-error");
+  } else {
+    dom.span.classList.remove("is-error");
+  }
 });
