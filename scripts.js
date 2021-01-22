@@ -1,4 +1,4 @@
-import { dom, toggleBtn, toggleCharCountError } from "./lib";
+import { dom, toggleBtn, toggleCharCountError } from "./lib.js";
 
 dom.textarea.addEventListener("keyup", function handleTextarea() {
   const charCount = this.value.length;

@@ -3,7 +3,7 @@ const span = form.querySelector("span");
 
 export const dom = {
   button: form.querySelector("button"),
-  charCount: span.querySelector("span"),
+  charCountSpan: span.querySelector("span"),
   span,
   textarea: form.querySelector("textarea"),
 };
